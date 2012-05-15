@@ -7,6 +7,13 @@
   fill: #fff;
   stroke: #ccc;
 }
+.video_label,
+.topic_label,
+.tree_label,
 .node_label{
+  font-size: 8px;
   fill: #222;
+}
+.tree_label{
+  font-size: 12px;
 }

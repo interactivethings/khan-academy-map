@@ -2,52 +2,44 @@ class CircleChart
   constructor: (data) ->
     # Variables
     @data     = data
-    @width    = 950
-    @height   = 600
-    
+    @width    = 2000
+    @height   = 2000
     @vis      = null
-    @nodes    = []
-    @circles  = null
-
-    # Calculated Variables
-    @max_amount = d3.max(@data, (d) -> parseInt(d.amount))
-    @radius_scale = d3.scale.pow().exponent(0.5).domain([0, @max_amount]).range([2, 80])
-    @red_scale = d3.scale.pow().domain([0, @max_outgoing_amount]).range(["#e9c6bc", "#d84b2a"])
+    @r        = @width / 2
     
-    console.log(data)
-    
-    #this.create_nodes()
-    #this.create_vis()
-
-  create_nodes: () =>
-    @data.forEach (d) =>
-      node = {
-        radius: @radius_scale(parseInt(d.amount))
-        x: Math.random() * @width
-        y: Math.random() * @height
-      }
-      @nodes.push node
-    @nodes.sort (a,b) -> b.amount - a.amount
+    this.create_vis()
 
   create_vis: () =>
     @vis = d3.select("#chart").append("svg")
       .attr("width", @width)
       .attr("height", @height)
-      
-    @circles = @vis.selectAll("g")
-      .data(@nodes, (d) -> d.id)
-      .enter()
       .append("g")
-      .attr("transform", (d) -> "translate(" + d.x + "," + d.y + ")")
-      
-    @circles.append("circle")
-      .attr("r", (d) -> d.radius)
-      
-    @circles.append("text")
-      .text((d) -> "Foo")
+      .attr("transform", "translate(" + @r + ", " + @r + ")");
+    
+    @partition = d3.layout.partition()
+      .size([2 * Math.PI, @r * @r])
+      .value((d) -> 1);
+    
+    @arc = d3.svg.arc()
+      .startAngle( (d) -> d.x)
+      .endAngle( (d) -> d.x + d.dx)
+      .innerRadius( (d) -> Math.sqrt(d.y))
+      .outerRadius( (d) -> Math.sqrt(d.y + d.dy ))
+    
+    @path = @vis.data([@data]).selectAll("path")
+      .data(@partition.nodes)
+      .enter().append("path")
+      .attr("display", (d) -> 
+        if(d.depth > 0)
+          null
+        else
+          "none"
+        )
+      .attr("d", @arc)
+      .style("stroke", "#fff")
 
 $ ->
-  data_url = "media/data/hierarchical_library.json"
+  data_url = "media/data/hierarchical_library_tree_full.json"
   chart = null
   render_vis = (_data) ->
     chart = new CircleChart _data
