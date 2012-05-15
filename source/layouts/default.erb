@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- ——————————————————————————————————————————————————————————————————— META -->
+  <meta charset="UTF-8" />
+  <title><%= "#{ data.page.title if data.page.title }" %></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ——————————————————————————————————————————————————————————————————— CSS -->
+  <%= stylesheet_vendor_tag "bootstrap/css/bootstrap.min" %>
+  <%= stylesheet_vendor_tag "bootstrap/css/bootstrap-responsive.min" %>
+  <%= stylesheet_link_tag 'style' %>
+  <!-- ——————————————————————————————————————————————————————————————————— JS -->
+</head>
+<body class="<%= data.page.slug %>">
+  <div class="navbar">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="brand" href="#">Khan Academy Map</a>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <%= yield %>
+  </div><!-- .container -->
+  <!-- ——————————————————————————————————————————————————————————————————— JS -->
+  <%= javascript_vendor_tag 'jquery/jquery-1.7.2.min' %>
+  <%= javascript_vendor_tag 'd3/d3.min' %>
+  <%= javascript_vendor_tag 'd3/d3.csv.min' %>
+  <%= javascript_vendor_tag 'd3/d3.layout.min' %>
+  <%= javascript_vendor_tag 'd3/d3.geom.min' %>
+  <%= javascript_vendor_tag 'd3/lib/colorbrewer/colorbrewer' %>
+  <%= javascript_include_tag data.page.script%>
+</body>
+</html>

@@ -1,0 +1,1838 @@
+[
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/act-i-scene-i",
+    "badge_category": 0,
+    "description": "Act I Scene I",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "actonesceneonebadge",
+    "points": 0,
+    "safe_extended_description": "Watch 20 minutes of video"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/atlas",
+    "badge_category": 4,
+    "description": "Atlas",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/eclipse-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/eclipse-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/eclipse.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/eclipse-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/eclipse-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "atlasbadge",
+    "points": 200000,
+    "safe_extended_description": "???"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/awesome-listener",
+    "badge_category": 1,
+    "description": "Awesome Listener",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "awesomeplaylisttimebadge",
+    "points": 0,
+    "safe_extended_description": "Watch 1 hour of video in a single topic"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/awesome-streak",
+    "badge_category": 0,
+    "description": "Awesome Streak",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "awesomestreakbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 60 problems in a row in a single skill"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/going-supersonic",
+    "badge_category": 1,
+    "description": "Going Supersonic",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "awesometimedproblembadge",
+    "points": 750,
+    "safe_extended_description": "Quickly & correctly answer 20 skill problems in a row (time limit depends on skill difficulty)"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/copernicus",
+    "badge_category": 3,
+    "description": "Copernicus",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/sun-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/sun-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/sun.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/sun-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/sun-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "copernicusbadge",
+    "points": 80000,
+    "safe_extended_description": "Achieve proficiency in any 200 skills"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/double-power-hour",
+    "badge_category": 2,
+    "description": "Double Power Hour",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "doublepowerhourbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 180 problems and watch 30 minutes of video in 2 hours"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/like-clockwork",
+    "badge_category": 1,
+    "description": "Like Clockwork",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "fifteendayconsecutiveactivitybadge",
+    "points": 0,
+    "safe_extended_description": "Watch part of any video or work on any skill each day for 15 consecutive days"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/thumbs-down",
+    "badge_category": 0,
+    "description": "Thumbs Down",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "firstdownvotebadge",
+    "points": 0,
+    "safe_extended_description": "Cast your first down vote for an unhelpful question, answer, or comment beneath a video"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/flag-duty",
+    "badge_category": 0,
+    "description": "Flag Duty",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "firstflagbadge",
+    "points": 0,
+    "safe_extended_description": "Flag your first question, comment, or answer beneath a video for a moderator's attention"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/thumbs-up",
+    "badge_category": 0,
+    "description": "Thumbs Up",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "firstupvotebadge",
+    "points": 0,
+    "safe_extended_description": "Cast your first up vote for a helpful question, answer, or comment beneath a video"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/good-habits",
+    "badge_category": 0,
+    "description": "Good Habits",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "fivedayconsecutiveactivitybadge",
+    "points": 0,
+    "safe_extended_description": "Watch part of any video or work on any skill each day for 5 consecutive days"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/five-times-ten-to-the-fifth",
+    "badge_category": 2,
+    "description": "Five Times Ten to the Fifth",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "fivehundredthousandairebadge",
+    "points": 0,
+    "safe_extended_description": "Earn 500,000 energy points"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/just-getting-started",
+    "badge_category": 0,
+    "description": "Just Getting Started",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "gettingstartedbadge",
+    "points": 100,
+    "safe_extended_description": "Achieve proficiency in any 3 skills"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/great-listener",
+    "badge_category": 0,
+    "description": "Great Listener",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "greatplaylisttimebadge",
+    "points": 0,
+    "safe_extended_description": "Watch 30 minutes of video in a single topic"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/great-streak",
+    "badge_category": 0,
+    "description": "Great Streak",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "greatstreakbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 40 problems in a row in a single skill"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/going-transonic",
+    "badge_category": 1,
+    "description": "Going Transonic",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "greattimedproblembadge",
+    "points": 500,
+    "safe_extended_description": "Quickly & correctly answer 10 skill problems in a row (time limit depends on skill difficulty)"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/hard-at-work",
+    "badge_category": 1,
+    "description": "Hard at Work",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "hardatworkbadge",
+    "points": 6000,
+    "safe_extended_description": "Achieve proficiency in any 25 skills"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/10000-year-clock",
+    "badge_category": 2,
+    "description": "10,000 Year Clock",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "hundreddayconsecutiveactivitybadge",
+    "points": 0,
+    "safe_extended_description": "Watch part of any video or work on any skill each day for 100 consecutive days"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/ten-to-the-fifth",
+    "badge_category": 1,
+    "description": "Ten to the Fifth",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "hundredthousandairebadge",
+    "points": 0,
+    "safe_extended_description": "Earn 100,000 energy points"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/steadfastness",
+    "badge_category": 1,
+    "description": "Steadfastness",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "keepfightingbadge",
+    "points": 0,
+    "safe_extended_description": "Answer more than 40 problems mostly correctly in a skill before becoming proficient"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/kepler",
+    "badge_category": 3,
+    "description": "Kepler",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/sun-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/sun-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/sun.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/sun-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/sun-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "keplerbadge",
+    "points": 125000,
+    "safe_extended_description": "Achieve proficiency in any 300 skills"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/artisan-iii-algebraist",
+    "badge_category": 1,
+    "description": "Artisan III Algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelfivealgebraistbadge",
+    "points": 1000,
+    "safe_extended_description": "Achieve proficiency in New definitions 1, New definitions 2, Expressions with unknown variables 2, Absolute value equations, Rad Eq 1, Rate Prob 1"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/artisan-ii-algebraist",
+    "badge_category": 1,
+    "description": "Artisan II Algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelfouralgebraistbadge",
+    "points": 1000,
+    "safe_extended_description": "Achieve proficiency in Linear equations 4, Linear inequalities, Average word problems, Equation of a line, Solving quadratics by factoring, Quad. Eq., Solving Var, Unkn Vars 1"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/apprentice-algebraist",
+    "badge_category": 1,
+    "description": "Apprentice Algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelonealgebraistbadge",
+    "points": 100,
+    "safe_extended_description": "Achieve proficiency in Exponents 3, Exponent rules, Logarithms 1, Linear equations 1, Percentage word problems 1, Functions 1"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/good-answer",
+    "badge_category": 1,
+    "description": "Good Answer",
+    "hide_context": true,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "leveloneanswervotecountbadge",
+    "points": 0,
+    "safe_extended_description": "Answer a question beneath a video and receive a score of 10 or more from others' votes"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/apprentice-arithmetician",
+    "badge_category": 1,
+    "description": "Apprentice Arithmetician",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelonearithmeticianbadge",
+    "points": 100,
+    "safe_extended_description": "Achieve proficiency in Addition 1, Subtraction 1, Multiplication 1, Division 1"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/apprentice-pre-algebraist",
+    "badge_category": 1,
+    "description": "Apprentice Pre-algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "leveloneprealgebraistbadge",
+    "points": 100,
+    "safe_extended_description": "Achieve proficiency in Exponents 1, Adding and subtracting negative numbers, Adding and subtracting fractions"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/good-question",
+    "badge_category": 1,
+    "description": "Good Question",
+    "hide_context": true,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelonequestionvotecountbadge",
+    "points": 0,
+    "safe_extended_description": "Ask a question beneath a video and receive a score of 10 or more from others' votes"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/apprentice-trigonometrician",
+    "badge_category": 1,
+    "description": "Apprentice Trigonometrician",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelonetrigonometricianbadge",
+    "points": 100,
+    "safe_extended_description": "Achieve proficiency in Angles 2, Distance formula, Pythagorean theorem 1"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/artisan-i-algebraist",
+    "badge_category": 1,
+    "description": "Artisan I Algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelthreealgebraistbadge",
+    "points": 750,
+    "safe_extended_description": "Achieve proficiency in Linear equations 3, Systems of equations, Multiplying expressions 1, Even and odd functions, Inverse fx, Line slope, Midpoint F., Line Relat., Functions 3"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/incredible-answer",
+    "badge_category": 2,
+    "description": "Incredible Answer",
+    "hide_context": true,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "levelthreeanswervotecountbadge",
+    "points": 0,
+    "safe_extended_description": "Answer a question beneath a video and receive a score of 50 or more from others' votes"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/artisan-arithmetician",
+    "badge_category": 1,
+    "description": "Artisan Arithmetician",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelthreearithmeticianbadge",
+    "points": 750,
+    "safe_extended_description": "Achieve proficiency in Multiplying decimals, Dividing decimals, Multiplying fractions, Dividing fractions"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/artisan-pre-algebraist",
+    "badge_category": 1,
+    "description": "Artisan Pre-algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelthreeprealgebraistbadge",
+    "points": 750,
+    "safe_extended_description": "Achieve proficiency in Exponents 3, Order of operations, Ordering numbers, Scientific notation, Units, Simplifying radicals"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/incredible-question",
+    "badge_category": 2,
+    "description": "Incredible Question",
+    "hide_context": true,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "levelthreequestionvotecountbadge",
+    "points": 0,
+    "safe_extended_description": "Ask a question beneath a video and receive a score of 50 or more from others' votes"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/artisan-trigonometrician",
+    "badge_category": 1,
+    "description": "Artisan Trigonometrician",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "levelthreetrigonometricianbadge",
+    "points": 750,
+    "safe_extended_description": "Achieve proficiency in Trigonometry 2, Graphs of sine and cosine, Inverse trig functions, Trig identities 1"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/journeyman-algebraist",
+    "badge_category": 1,
+    "description": "Journeyman Algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "leveltwoalgebraistbadge",
+    "points": 500,
+    "safe_extended_description": "Achieve proficiency in Linear equations 2, Percentage word problems 2, Functions 2, Domain of a function, Even and odd functions, Shif/Ref fx"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/great-answer",
+    "badge_category": 2,
+    "description": "Great Answer",
+    "hide_context": true,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "leveltwoanswervotecountbadge",
+    "points": 0,
+    "safe_extended_description": "Answer a question beneath a video and receive a score of 25 or more from others' votes"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/journeyman-arithmetician",
+    "badge_category": 1,
+    "description": "Journeyman Arithmetician",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "leveltwoarithmeticianbadge",
+    "points": 500,
+    "safe_extended_description": "Achieve proficiency in Addition 4, Subtraction 4, Multiplication 4, Division 4"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/journeyman-pre-algebraist",
+    "badge_category": 1,
+    "description": "Journeyman Pre-algebraist",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "leveltwoprealgebraistbadge",
+    "points": 500,
+    "safe_extended_description": "Achieve proficiency in Exponents 2, Multiplying and dividing negative numbers, Multiplying fractions, Dividing fractions"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/great-question",
+    "badge_category": 2,
+    "description": "Great Question",
+    "hide_context": true,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "leveltwoquestionvotecountbadge",
+    "points": 0,
+    "safe_extended_description": "Ask a question beneath a video and receive a score of 25 or more from others' votes"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/journeyman-trigonometrician",
+    "badge_category": 1,
+    "description": "Journeyman Trigonometrician",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "leveltwotrigonometricianbadge",
+    "points": 500,
+    "safe_extended_description": "Achieve proficiency in Pythagorean theorem 2, Trigonometry 1"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/ludicrous-listener",
+    "badge_category": 3,
+    "description": "Ludicrous Listener",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/sun-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/sun-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/sun.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/sun-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/sun-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "ludicrousplaylisttimebadge",
+    "points": 0,
+    "safe_extended_description": "Watch 10 hours of video in a single topic"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/ludicrous-streak",
+    "badge_category": 1,
+    "description": "Ludicrous Streak",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "ludicrousstreakbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 100 problems in a row in a single skill"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/299792458-meters-per-second",
+    "badge_category": 2,
+    "description": "299,792,458 Meters per Second",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "ludicroustimedproblembadge",
+    "points": 5000,
+    "safe_extended_description": "Quickly & correctly answer 75 skill problems in a row (time limit depends on skill difficulty)"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/magellan",
+    "badge_category": 3,
+    "description": "Magellan",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/sun-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/sun-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/sun.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/sun-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/sun-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "magellanbadge",
+    "points": 30000,
+    "safe_extended_description": "Achieve proficiency in any 100 skills"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/making-progress",
+    "badge_category": 0,
+    "description": "Making Progress",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "makingprogressbadge",
+    "points": 1000,
+    "safe_extended_description": "Achieve proficiency in any 7 skills"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/millionaire",
+    "badge_category": 3,
+    "description": "Millionaire",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/sun-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/sun-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/sun.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/sun-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/sun-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "millionairebadge",
+    "points": 0,
+    "safe_extended_description": "Earn 1,000,000 energy points"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/nice-listener",
+    "badge_category": 0,
+    "description": "Nice Listener",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "niceplaylisttimebadge",
+    "points": 0,
+    "safe_extended_description": "Watch 15 minutes of video in a single topic"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/nice-streak",
+    "badge_category": 0,
+    "description": "Nice Streak",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "nicestreakbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 20 problems in a row in a single skill"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/picking-up-steam",
+    "badge_category": 0,
+    "description": "Picking Up Steam",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "nicetimedproblembadge",
+    "points": 100,
+    "safe_extended_description": "Quickly & correctly answer 5 skill problems in a row (time limit depends on skill difficulty)"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/inspired-15-minutes",
+    "badge_category": 0,
+    "description": "Inspired 15 Minutes",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "powerfifteenminutesbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 10 problems and watch 10 minutes of video in 15 minutes"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/power-hour",
+    "badge_category": 1,
+    "description": "Power Hour",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "powerhourbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 90 problems and watch 15 minutes of video in 1 hour"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/express-yourself",
+    "badge_category": 0,
+    "description": "Express Yourself",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "profilecustomizationbadge",
+    "points": 0,
+    "safe_extended_description": "Customize your profile avatar and fill up your display case."
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/persistence",
+    "badge_category": 0,
+    "description": "Persistence",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "recoverybadge",
+    "points": 0,
+    "safe_extended_description": "Answer a problem correctly after having some trouble with a few problems and sticking with the skill."
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/sticktoitiveness",
+    "badge_category": 1,
+    "description": "Sticktoitiveness",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "resurrectionbadge",
+    "points": 0,
+    "safe_extended_description": "Answer a problem correctly after having some trouble with many problems and sticking with the skill."
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/ridiculous-listener",
+    "badge_category": 2,
+    "description": "Ridiculous Listener",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "ridiculousplaylisttimebadge",
+    "points": 0,
+    "safe_extended_description": "Watch 4 hours of video in a single topic"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/ridiculous-streak",
+    "badge_category": 1,
+    "description": "Ridiculous Streak",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "ridiculousstreakbadge",
+    "points": 0,
+    "safe_extended_description": "Correctly answer 80 problems in a row in a single skill"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/sub-light-speed",
+    "badge_category": 2,
+    "description": "Sub-light Speed",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "ridiculoustimedproblembadge",
+    "points": 1500,
+    "safe_extended_description": "Quickly & correctly answer 42 skill problems in a row (time limit depends on skill difficulty)"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/perseverance",
+    "badge_category": 0,
+    "description": "Perseverance",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "soclosebadge",
+    "points": 0,
+    "safe_extended_description": "Answer more than 30 problems mostly correctly in a skill before becoming proficient"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/tesla",
+    "badge_category": 4,
+    "description": "Tesla",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/eclipse-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/eclipse-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/eclipse.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/eclipse-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/eclipse-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "tenmillionairebadge",
+    "points": 0,
+    "safe_extended_description": "???"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/ten-to-the-fourth",
+    "badge_category": 0,
+    "description": "Ten to the Fourth",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "tenthousandairebadge",
+    "points": 0,
+    "safe_extended_description": "Earn 10,000 energy points"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/atomic-clockwork",
+    "badge_category": 1,
+    "description": "Atomic Clockwork",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "thirtydayconsecutiveactivitybadge",
+    "points": 0,
+    "safe_extended_description": "Watch part of any video or work on any skill each day for 30 consecutive days"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/basic-geometry",
+    "badge_category": 5,
+    "description": "Basic geometry",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/basic-geometry-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/basic-geometry-60x60.png?6",
+      "large": "/images/power-mode/badges/basic-geometry-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/basic-geometry-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_10MlOxExUBBQNHgviilzlgi9KIpYSd7NQ2Z1todb",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Basic geometry"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/calculus",
+    "badge_category": 5,
+    "description": "Calculus",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/calculus-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/calculus-60x60.png?6",
+      "large": "/images/power-mode/badges/calculus-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/calculus-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_1fQH4dvaiy4S-o36n4_b-cyACZVHNGlb_JDOHTSk",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Calculus"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/fractions",
+    "badge_category": 5,
+    "description": "Fractions",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/fractions-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/fractions-60x60.png?6",
+      "large": "/images/power-mode/badges/fractions-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/fractions-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_6yXN4Yvo--fg2MGyd3mzG3MLP9ktdWa1iftIU9Ed",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Fractions"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/map-basic",
+    "badge_category": 5,
+    "description": "MAP Basic",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/default-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/default-60x60.png?6",
+      "large": "/images/power-mode/badges/default-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/default-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": true,
+    "name": "topic_exercise_AyurxP7NdpHfWEHXD47wTCe-3pTNuI3lE2OZ_fie",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in MAP Basic"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/decimals",
+    "badge_category": 5,
+    "description": "Decimals",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/decimals-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/decimals-60x60.png?6",
+      "large": "/images/power-mode/badges/decimals-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/decimals-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_C0kfQ3mZSE_zBNfxY7EH4Kdwu_HaHM_oiR1BlAyW",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Decimals"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/percents",
+    "badge_category": 5,
+    "description": "Percents",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/percents-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/percents-60x60.png?6",
+      "large": "/images/power-mode/badges/percents-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/percents-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_E77BgovF2uX8uyzY5dIiY8ZdVXzd4Bw1WYITXvmn",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Percents"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/functions",
+    "badge_category": 5,
+    "description": "Functions",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/functions-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/functions-60x60.png?6",
+      "large": "/images/power-mode/badges/functions-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/functions-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_K5CAA_lSb0gdqtmMngO1hGkaLRdDAWa4JaXblBhJ",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Functions"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/equation-of-a-line",
+    "badge_category": 5,
+    "description": "Equation of a line",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/equation-of-a-line-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/equation-of-a-line-60x60.png?6",
+      "large": "/images/power-mode/badges/equation-of-a-line-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/equation-of-a-line-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_K62pPNvRVUW0wCVsQWqSSZDj2SUVisbA4AMNuqJe",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Equation of a line"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/addition-and-subtraction",
+    "badge_category": 5,
+    "description": "Addition and subtraction",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/addition-and-subtraction-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/addition-and-subtraction-60x60.png?6",
+      "large": "/images/power-mode/badges/addition-and-subtraction-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/addition-and-subtraction-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_KHDySQBco4Z5ChI1U4UpyHU954YJ8QahCFcDsImA",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Addition and subtraction"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/conic-sections",
+    "badge_category": 5,
+    "description": "Conic sections",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/conic-sections-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/conic-sections-60x60.png?6",
+      "large": "/images/power-mode/badges/conic-sections-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/conic-sections-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_KwnHF4txdhqHOdS868IJJuOdEkhn0CeYJxtMAyuu",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Conic sections"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/pythagorean-theorem",
+    "badge_category": 5,
+    "description": "Pythagorean theorem",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/pythagorean-theorem-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/pythagorean-theorem-60x60.png?6",
+      "large": "/images/power-mode/badges/pythagorean-theorem-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/pythagorean-theorem-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_LG71-yDGhJGaSWe3sQ99vsMq92PyzTsZY7AyG5Fh",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Pythagorean theorem"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/rates-and-ratios",
+    "badge_category": 5,
+    "description": "Rates and ratios",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/rates-and-ratios-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/rates-and-ratios-60x60.png?6",
+      "large": "/images/power-mode/badges/rates-and-ratios-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/rates-and-ratios-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_LjZH9OiVLkOOeF4QDuyKlI1QzI8U9dRelqF81GWH",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Rates and ratios"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/polynomials-and-quadratics",
+    "badge_category": 5,
+    "description": "Polynomials and quadratics",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/polynomials-and-quadratics-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/polynomials-and-quadratics-60x60.png?6",
+      "large": "/images/power-mode/badges/polynomials-and-quadratics-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/polynomials-and-quadratics-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_N5N8pHbWmakbB3XygvnJivtfHLFMPt4NE2PQgnsw",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Polynomials and quadratics"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/probability",
+    "badge_category": 5,
+    "description": "Probability",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/probability-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/probability-60x60.png?6",
+      "large": "/images/power-mode/badges/probability-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/probability-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_XQlJ7xotRQg3QeW9VCiED2Jt7T7VmIkAoQP03zq9",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Probability"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/order-of-operations",
+    "badge_category": 5,
+    "description": "Order of operations",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/order-of-operations-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/order-of-operations-60x60.png?6",
+      "large": "/images/power-mode/badges/order-of-operations-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/order-of-operations-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_XrktPu74_wbKu_89ocp_AJFmuV0pYodt0QnFR1Ab",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Order of operations"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/solving-linear-equations-and-inequalities",
+    "badge_category": 5,
+    "description": "Solving linear equations and inequalities",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/solving-linear-equations-and-inequalities-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/solving-linear-equations-and-inequalities-60x60.png?6",
+      "large": "/images/power-mode/badges/solving-linear-equations-and-inequalities-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/solving-linear-equations-and-inequalities-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_ZRz9FP3Oc1JYP1M_xLUezZcfX1bM8F63rnN4syNu",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Solving linear equations and inequalities"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/statistics",
+    "badge_category": 5,
+    "description": "Statistics",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/statistics-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/statistics-60x60.png?6",
+      "large": "/images/power-mode/badges/statistics-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/statistics-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_a11EYuB8JELuSLuK70DfUGQlRMEKtVAxQdu1UtVK",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Statistics"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/exponents-and-radicals",
+    "badge_category": 5,
+    "description": "Exponents and Radicals",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/exponents-and-radicals-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/exponents-and-radicals-60x60.png?6",
+      "large": "/images/power-mode/badges/exponents-and-radicals-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/exponents-and-radicals-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_btJEpdEmmhhYt0pelz-5BBCZXl4ft3nGTawvnrPq",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Exponents and Radicals"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/absolute-value",
+    "badge_category": 5,
+    "description": "Absolute value",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/absolute-value-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/absolute-value-60x60.png?6",
+      "large": "/images/power-mode/badges/absolute-value-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/absolute-value-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_dCbo4FwcSVKyciaY4Ok6F0a-FtFxcOcAKOILdb6q",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Absolute value"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/trigonometry",
+    "badge_category": 5,
+    "description": "Trigonometry",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/trigonometry-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/trigonometry-60x60.png?6",
+      "large": "/images/power-mode/badges/trigonometry-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/trigonometry-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_i9cU2Edaq1iebOqo9moc9Nmd7pd8k9yg60m4gSMh",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Trigonometry"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/complex-numbers",
+    "badge_category": 5,
+    "description": "Complex numbers",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/complex-numbers-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/complex-numbers-60x60.png?6",
+      "large": "/images/power-mode/badges/complex-numbers-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/complex-numbers-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_iYzaSYnmicOVqDRgZ3-F6uu7_YRWkGarVgmzfjlP",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Complex numbers"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/systems-of-equations-and-inequalities",
+    "badge_category": 5,
+    "description": "Systems of equations and inequalities",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/systems-of-equations-and-inequalities-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/systems-of-equations-and-inequalities-60x60.png?6",
+      "large": "/images/power-mode/badges/systems-of-equations-and-inequalities-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/systems-of-equations-and-inequalities-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_iuUnywliLBQQ_Dibzrrsruwox-Wp7915SgZ2mBk6",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Systems of equations and inequalities"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/multiplication-and-division",
+    "badge_category": 5,
+    "description": "Multiplication and division",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/multiplication-and-division-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/multiplication-and-division-60x60.png?6",
+      "large": "/images/power-mode/badges/multiplication-and-division-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/multiplication-and-division-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_jjNw_P7DF9IrnyNAI0qQuJOPP9EygH7UKatgWVem",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Multiplication and division"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/triangles",
+    "badge_category": 5,
+    "description": "Triangles",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/triangles-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/triangles-60x60.png?6",
+      "large": "/images/power-mode/badges/triangles-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/triangles-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_poP8_dlXseXQhxTvqjWcLxX-MbJ4LI2ezxgFTtFT",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Triangles"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/factors-and-multiples",
+    "badge_category": 5,
+    "description": "Factors and multiples",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/factors-and-multiples-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/factors-and-multiples-60x60.png?6",
+      "large": "/images/power-mode/badges/factors-and-multiples-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/factors-and-multiples-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_sKjw8V-WXbRYuuomASZQ5frgIw26JwZwK9yjuMdv",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Factors and multiples"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/new-topic",
+    "badge_category": 5,
+    "description": "New Topic",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/default-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/default-60x60.png?6",
+      "large": "/images/power-mode/badges/default-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/default-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": true,
+    "name": "topic_exercise_serArSUyybtXT_ZAmIf_2bE-jIA6wEDwATz67H8j",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in New Topic"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/linear-equations-and-inequalities",
+    "badge_category": 5,
+    "description": "Linear equations and inequalities",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/linear-equations-and-inequalities-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/linear-equations-and-inequalities-60x60.png?6",
+      "large": "/images/power-mode/badges/linear-equations-and-inequalities-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/linear-equations-and-inequalities-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_st2s3FGaM9_CDZZFCq1BvO8SPXzr8HZi-Je63cKP",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Linear equations and inequalities"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/vectors",
+    "badge_category": 5,
+    "description": "Vectors",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/vectors-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/vectors-60x60.png?6",
+      "large": "/images/power-mode/badges/vectors-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/vectors-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_t4B-w8_x_OAaX1N6RNH_7Pessb4vRhqDR-jge3sr",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Vectors"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/telling-time",
+    "badge_category": 5,
+    "description": "Telling time",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/telling-time-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/telling-time-60x60.png?6",
+      "large": "/images/power-mode/badges/telling-time-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/telling-time-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_uE6pzc4wW0sC9WfpeFF493N6oi7w_e4pZ-alrrG6",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Telling time"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/angles",
+    "badge_category": 5,
+    "description": "Angles",
+    "hide_context": false,
+    "icon_src": "/images/power-mode/badges/angles-40x40.png?6",
+    "icons": {
+      "compact": "/images/power-mode/badges/angles-60x60.png?6",
+      "large": "/images/power-mode/badges/angles-250x250.png?6",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/power-mode/badges/angles-40x40.png?6"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "topic_exercise_zLUoyCRdhg6AGMXI0nbaivw4kCDcw5idgn5TQmn2",
+    "points": 0,
+    "safe_extended_description": "Achieve proficiency in all skills in Angles"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/master-of-algebra",
+    "badge_category": 5,
+    "description": "Master of Algebra",
+    "hide_context": false,
+    "icon_src": "/images/badges/Algebra.png",
+    "icons": {
+      "compact": "/images/badges/Algebra.png",
+      "large": "http://khan-academy.appspot.com/images/badges/master-challenge-blue.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/badges/Algebra.png"
+    },
+    "is_owned": true,
+    "is_retired": true,
+    "name": "toplevelalgebraistbadge",
+    "points": 10000,
+    "safe_extended_description": "Complete the Algebra challenge"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/master-of-arithmetic",
+    "badge_category": 5,
+    "description": "Master of Arithmetic",
+    "hide_context": false,
+    "icon_src": "/images/badges/Arithmetic.png",
+    "icons": {
+      "compact": "/images/badges/Arithmetic.png",
+      "large": "http://khan-academy.appspot.com/images/badges/master-challenge-blue.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/badges/Arithmetic.png"
+    },
+    "is_owned": true,
+    "is_retired": true,
+    "name": "toplevelarithmeticianbadge",
+    "points": 10000,
+    "safe_extended_description": "Complete the Arithmetic challenge"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/master-of-pre-algebra",
+    "badge_category": 5,
+    "description": "Master of Pre-algebra",
+    "hide_context": false,
+    "icon_src": "/images/badges/Pre-Algebra.png",
+    "icons": {
+      "compact": "/images/badges/Pre-Algebra.png",
+      "large": "http://khan-academy.appspot.com/images/badges/master-challenge-blue.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/badges/Pre-Algebra.png"
+    },
+    "is_owned": true,
+    "is_retired": true,
+    "name": "toplevelprealgebraistbadge",
+    "points": 10000,
+    "safe_extended_description": "Complete the Pre-algebra challenge"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/master-of-trigonometry",
+    "badge_category": 5,
+    "description": "Master of Trigonometry",
+    "hide_context": false,
+    "icon_src": "/images/badges/Geometry-Trig.png",
+    "icons": {
+      "compact": "/images/badges/Geometry-Trig.png",
+      "large": "http://khan-academy.appspot.com/images/badges/master-challenge-blue.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+      "small": "/images/badges/Geometry-Trig.png"
+    },
+    "is_owned": true,
+    "is_retired": true,
+    "name": "topleveltrigonometricianbadge",
+    "points": 10000,
+    "safe_extended_description": "Complete the Trigonometry challenge"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/tenacity",
+    "badge_category": 1,
+    "description": "Tenacity",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "undeterrablebadge",
+    "points": 0,
+    "safe_extended_description": "Answer more than 50 problems mostly correctly in a skill before becoming proficient"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/work-horse",
+    "badge_category": 2,
+    "description": "Work Horse",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "workhorsebadge",
+    "points": 14000,
+    "safe_extended_description": "Achieve proficiency in any 50 skills"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/cypress",
+    "badge_category": 0,
+    "description": "Cypress",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/meteorite-small.png"
+    },
+    "is_owned": true,
+    "is_retired": false,
+    "name": "yearonebadge",
+    "points": 0,
+    "safe_extended_description": "Remain a member of the Khan Academy for 1 year"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/sequoia",
+    "badge_category": 2,
+    "description": "Sequoia",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/earth.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/earth-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "yearthreebadge",
+    "points": 0,
+    "safe_extended_description": "Remain a member of the Khan Academy for 3 years"
+  },
+  {
+    "absolute_url": "http://www.khanacademy.org/badges/redwood",
+    "badge_category": 1,
+    "description": "Redwood",
+    "hide_context": false,
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "icons": {
+      "compact": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+      "large": "http://khan-academy.appspot.com/images/badges/moon.png",
+      "medium": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+      "small": "http://khan-academy.appspot.com/images/badges/moon-small.png"
+    },
+    "is_owned": false,
+    "is_retired": false,
+    "name": "yeartwobadge",
+    "points": 0,
+    "safe_extended_description": "Remain a member of the Khan Academy for 2 years"
+  }
+]

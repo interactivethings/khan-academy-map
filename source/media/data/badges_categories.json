@@ -1,0 +1,62 @@
+[
+  {
+    "category": 0,
+    "chart_icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small-chart.png",
+    "compact_icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-60x60.png",
+    "description": "Meteorite badges are common and easy to earn when just getting started.",
+    "icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-small.png",
+    "large_icon_src": "http://khan-academy.appspot.com/images/badges/meteorite.png",
+    "medium_icon_src": "http://khan-academy.appspot.com/images/badges/meteorite-medium.png",
+    "type_label": "Meteorite"
+  },
+  {
+    "category": 1,
+    "chart_icon_src": "http://khan-academy.appspot.com/images/badges/moon-small-chart.png",
+    "compact_icon_src": "http://khan-academy.appspot.com/images/badges/moon-60x60.png",
+    "description": "Moon badges are uncommon and represent an investment in learning.",
+    "icon_src": "http://khan-academy.appspot.com/images/badges/moon-small.png",
+    "large_icon_src": "http://khan-academy.appspot.com/images/badges/moon.png",
+    "medium_icon_src": "http://khan-academy.appspot.com/images/badges/moon-medium.png",
+    "type_label": "Moon"
+  },
+  {
+    "category": 2,
+    "chart_icon_src": "http://khan-academy.appspot.com/images/badges/earth-small-chart.png",
+    "compact_icon_src": "http://khan-academy.appspot.com/images/badges/earth-60x60.png",
+    "description": "Earth badges are rare. They require a significant amount of learning.",
+    "icon_src": "http://khan-academy.appspot.com/images/badges/earth-small.png",
+    "large_icon_src": "http://khan-academy.appspot.com/images/badges/earth.png",
+    "medium_icon_src": "http://khan-academy.appspot.com/images/badges/earth-medium.png",
+    "type_label": "Earth"
+  },
+  {
+    "category": 3,
+    "chart_icon_src": "http://khan-academy.appspot.com/images/badges/sun-small-chart.png",
+    "compact_icon_src": "http://khan-academy.appspot.com/images/badges/sun-60x60.png",
+    "description": "Sun badges are epic. Earning them is a true challenge, and they require impressive dedication.",
+    "icon_src": "http://khan-academy.appspot.com/images/badges/sun-small.png",
+    "large_icon_src": "http://khan-academy.appspot.com/images/badges/sun.png",
+    "medium_icon_src": "http://khan-academy.appspot.com/images/badges/sun-medium.png",
+    "type_label": "Sun"
+  },
+  {
+    "category": 4,
+    "chart_icon_src": "http://khan-academy.appspot.com/images/badges/eclipse-small-chart.png",
+    "compact_icon_src": "http://khan-academy.appspot.com/images/badges/eclipse-60x60.png",
+    "description": "Black Hole badges are legendary and unknown. They are the most unique Khan Academy awards.",
+    "icon_src": "http://khan-academy.appspot.com/images/badges/eclipse-small.png",
+    "large_icon_src": "http://khan-academy.appspot.com/images/badges/eclipse.png",
+    "medium_icon_src": "http://khan-academy.appspot.com/images/badges/eclipse-medium.png",
+    "type_label": "Black Hole"
+  },
+  {
+    "category": 5,
+    "chart_icon_src": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-small-chart.png",
+    "compact_icon_src": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-60x60.png",
+    "description": "Challenge Patches are special awards for completing topic challenges.",
+    "icon_src": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-small.png",
+    "large_icon_src": "http://khan-academy.appspot.com/images/badges/master-challenge-blue.png",
+    "medium_icon_src": "http://khan-academy.appspot.com/images/badges/master-challenge-blue-medium.png",
+    "type_label": "Challenge Patches"
+  }
+]

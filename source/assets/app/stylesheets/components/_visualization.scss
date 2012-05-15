@@ -1,0 +1,101 @@
+/* HTML ELEMENTS
+/////////////////////////////////////////////////////////////////*/
+.header{
+  border-top: 3px solid $border-superlight; 
+}
+.visualization{
+  border-top: 1px solid $border-superlight; 
+  padding: 20px 0;
+  position: relative;
+}
+.description{
+  border-top: 1px solid $border-superlight; 
+  padding: 40px 0;
+}
+#chart{
+}
+#chart_overlays{
+}
+.chart_overlay{
+  position: absolute;
+}
+/* VIEW SELECTION
+/////////////////////////////////////////////////////////////////*/
+.view_selection{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  @include clearfix
+}
+.view_selection li {
+  color: #999;
+  cursor: pointer;
+  float: left;
+  padding: 5px 10px;
+  border: solid 1px $border-superlight;
+  margin: 0 0 0 -1px;
+  z-index: 1;
+  position: relative;
+}
+
+.view_selection li:first-of-type{
+  border-radius: 4px 0 0 4px;
+  margin-left: 0;
+}
+.view_selection li:last-of-type{
+  border-radius: 0 4px 4px 0;
+}
+.view_selection li.active {
+  color: $text-dark;
+  background: lighten($border-superlight, 5%);
+  border-color: darken($border-superlight, 10%);
+  box-shadow: inset 0px 0px 4px rgba(0,0,0,0.1);
+  z-index: 2;
+}
+.view_selection li:hover {
+  color: $text-dark;
+  border-color: darken($border-superlight, 10%);
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,0.5);
+}
+.view_selection li.active:hover {
+  box-shadow: inset 0px 0px 4px rgba(0,0,0,0.1);
+}
+/* SVG ELEMENTS
+/////////////////////////////////////////////////////////////////*/
+svg {
+  overflow: hidden;
+}
+line{
+  shape-rendering: crispEdges;
+}
+rect{
+  shape-rendering: crispEdges;
+}
+/* VISUALIZATION ELEMENTS
+/////////////////////////////////////////////////////////////////*/
+.axis,
+.grid {
+  shape-rendering: crispEdges;
+}
+
+/* TOOLTIP
+/////////////////////////////////////////////////////////////////*/
+.tooltip {
+  @include single-box-shadow();
+  @include border-radius();
+  background: #fff;
+}
+.tooltip .ui-tooltip-titlebar,
+.tooltip .ui-tooltip-content{
+  @include border-radius();
+  background-color: #fff;
+  border-color:#ccc;
+  color: $text-dark;
+  padding: 10px;
+  text-align: center;
+}
+/* VISUALIZATIONS
+/////////////////////////////////////////////////////////////////*/
+line{
+  @include opacity(0.5);
+}

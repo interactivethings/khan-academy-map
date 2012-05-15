@@ -1,0 +1,33 @@
+/*
+BASE STYLESHEET
+Description:  Global variables for the Website
+Author:       Interactive Things
+Created:      100614_BW
+Updated:      120515_BW
+*/
+/* COLORS
+/////////////////////////////////////////////////////////////////*/
+$border-superlight: #d4d5d3;
+$text-dark: #222;
+
+/* DEFAULTS
+/////////////////////////////////////////////////////////////////*/
+$default-border-radius: 5px;
+
+$default-box-shadow-color: rgba(0,0,0,0.4);
+$dark-box-shadow-color: rgba(0,0,0,0.9);
+$default-box-shadow-h-offset: 0px;
+$default-box-shadow-v-offset: 1px;
+$default-box-shadow-blur: 5px;
+
+$default-transition-property : all;
+$default-transition-duration : 100ms;
+$default-transition-function : ease-out;
+$default-transition-delay    : false;
+
+/* IMPORTS
+/////////////////////////////////////////////////////////////////*/
+@import "compass/utilities/general";
+@import "compass/reset/utilities";
+@import "compass/css3";
+@import "library/all";
