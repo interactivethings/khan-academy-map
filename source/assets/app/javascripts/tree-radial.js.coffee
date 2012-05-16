@@ -38,12 +38,36 @@ class CircleChart
     @node = @vis.selectAll("g.node")
       .data(@nodes)
       .enter().append("g")
-      .attr("class", "node")
+      .attr("class",  (d) -> 
+        switch d.kind
+          when "Topic"
+            "node topic_node"
+          when "Video"
+            "node video_node"
+          else
+            "node tree_node"
+        )
       .attr("transform", (d) -> "rotate(" + (d.x - 90) + ")translate(" + d.y + ")")
-      
-    @node.append("circle")
+    
+    @vis.selectAll(".topic_node")
+      .append("circle")
       .attr("class", "node_circle")
-      .attr("r", 2)
+      .attr("r", (d) -> 
+        totalDuration = 0
+        d.children.forEach( (d, i) =>
+          totalDuration += d.duration
+        )
+        Math.sqrt(totalDuration)
+      )
+    
+
+    
+    @vis.selectAll(".video_node")
+      .append("rect")
+      .attr("class", "video_ray")
+      .attr("width", (d) -> 2*Math.sqrt(d.duration))
+      .attr("height", (d) -> 1)
+      .attr("x", (d) -> 2)
       
     @node.append("text")
       .attr("class",  (d) -> 
@@ -65,7 +89,7 @@ class CircleChart
       .attr("dx", 5)
       .attr("dy", 3)
       .attr("text-anchor", "start")
-      #.attr("display", "none")
+      .attr("display", "none")
       .text( (d) -> d.title)
     
     @node.selectAll(".tree_label")

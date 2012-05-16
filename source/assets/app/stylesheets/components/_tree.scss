@@ -4,14 +4,17 @@
   stroke-width: 1px;
 }
 .node_circle{
-  fill: #fff;
+  fill: rgba(0,0,0,0.1);
   stroke: #ccc;
+}
+.video_ray{
+  fill: #ccc;
 }
 .video_label,
 .topic_label,
 .tree_label,
 .node_label{
-  font-size: 8px;
+  font-size: 10px;
   fill: #222;
 }
 .tree_label{
