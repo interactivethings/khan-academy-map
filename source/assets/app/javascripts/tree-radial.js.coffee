@@ -9,7 +9,7 @@ class CircleChart
     @width        = 4000
     @height       = 4000
     @ray_length   = 100
-    @ring_radius  = 100
+    @ring_radius  = 600
     @r            = @width / 2  - @ray_length * 4
     @tree         = d3.layout.cluster()  
                     .size([360, @r])
@@ -24,12 +24,13 @@ class CircleChart
   create_scales: () ->
     @min_duration = d3.min(@nodes, (d) -> d.duration)
     @max_duration = d3.max(@nodes, (d) -> d.duration)
-    @sum_duration = d3.max(@nodes, (d) -> d.duration)
-    @min_views    = d3.min(@nodes, (d) -> d.views)
-    @max_views    = d3.max(@nodes, (d) -> d.views)
-    @sum_views    = d3.sum(@nodes, (d) -> d.duration)
+    @sum_duration = d3.sum(@nodes, (d) -> d.duration)
     @d_max_scale  = d3.scale.linear().range([0, @ray_length]).domain([0, @max_duration])
     @v_max_scale  = d3.scale.linear().range([0, @ray_length]).domain([0, @max_views])
+    
+    @min_views    = d3.min(@nodes, (d) -> d.views)
+    @max_views    = d3.max(@nodes, (d) -> d.views)
+    @sum_views    = d3.sum(@nodes, (d) -> d.views)
     @d_sum_scale  = d3.scale.linear().range([0, @ring_radius]).domain([0, @sum_duration])
     @v_sum_scale  = d3.scale.linear().range([0, @ring_radius]).domain([0, @sum_views])
     this
@@ -71,8 +72,8 @@ class CircleChart
         .attr "r", (d) =>
           d.duration = 0 unless d.duration?
           d.duration += child_d.duration for child_d in d.children
-          #@d_sum_scale(d.duration)
-          300
+          @d_sum_scale(d.duration)
+          #300
     this
   add_views_circles: () ->
     for selector in ["playlist", "subtopic", "topic", "root"]
@@ -82,8 +83,8 @@ class CircleChart
         .attr "r", (d) =>
           d.views = 0 unless d.views?
           d.views += child_d.views for child_d in d.children
-          #@v_sum_scale(d.views)
-          200
+          @v_sum_scale(d.views)
+          #200
     this
   
   add_links: () ->
