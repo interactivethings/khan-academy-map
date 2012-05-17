@@ -1,6 +1,16 @@
+$background: #f0f0f0;
+$link_stroke: #ccc;
+$video_duration_ray: #aaa;
+$video_views_ray: #888;
+$node_label: #222;
+$sublabel: #999;
+$node_circle: #fff;
+svg{
+  background: $background;
+}
 .link {
   fill: none;
-  stroke: #ccc;
+  stroke: $link_stroke;
   stroke-width: 1px;
 }
 .depth_0{
@@ -14,32 +24,32 @@
   stroke-width: 1px;
 }
 .node_duration_circle{
-  fill: #eee;
+  fill: $node_circle;
   //stroke: #517cbb;
 }
 .node_views_circle{
   display: none;
-  fill: #eee;
+  fill: $node_circle;
   //stroke: #7ba15f;
 }
 .node_views_circle_inner{
   fill: transparent;
-  stroke: #fff;
+  stroke: $background;
   stroke-width: 2px;
 }
 .node_views_circle_outer{
   fill: transparent;
-  stroke: #eee;
+  stroke: $node_circle;
   stroke-width: 1px;
 }
 .video_duration_ray{
-  fill: #ccc;
+  fill: $video_duration_ray;
   &.max_duration{
     //fill: #7ba15f;
   }
 }
 .video_views_ray{
-  fill: #aaa;
+  fill: $video_views_ray;
   &.max_views{
     //fill: #517cbb;
   }
@@ -49,7 +59,7 @@
 .topic_label,
 .node_label{
   font-size: 10px;
-  fill: #222;
+  fill: $node_label;
 }
 .root_label,
 .topic_label,
@@ -58,7 +68,7 @@
 }
 .sublabel{
   font-size: 10px;
-  fill: #999;
+  fill: $sublabel;
 }
 .root_node{
   .root_label,
