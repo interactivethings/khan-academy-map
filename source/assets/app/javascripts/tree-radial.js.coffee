@@ -9,7 +9,7 @@ class CircleChart
     @width        = 4000
     @height       = 4000
     @ray_length   = 100
-    @r            = @width / 2  - @ray_length * 2
+    @r            = @width / 2  - @ray_length * 4
     @tree         = d3.layout.cluster()  
                     .size([360, @r])
                     .separation(MathHelpers.depth)
@@ -21,7 +21,9 @@ class CircleChart
     this
   
   create_scales: () ->
+    @min_duration = d3.min(@nodes, (d) -> d.duration)
     @max_duration = d3.max(@nodes, (d) -> d.duration)
+    @min_views    = d3.min(@nodes, (d) -> d.views)
     @max_views    = d3.max(@nodes, (d) -> d.views)
     @d_scale      = d3.scale.linear().range([0, @ray_length]).domain([0, @max_duration])
     @v_scale      = d3.scale.linear().range([0, @ray_length]).domain([0, @max_views])
@@ -33,7 +35,7 @@ class CircleChart
       .attr("height", @height)
       .append("g")
       .attr("id", "vis")
-      .attr("transform", "translate(" + (@r + @ray_length) + ", " + (@r + @ray_length) + ")")
+      .attr("transform", "translate(" + (@r + @ray_length * 2) + ", " + (@r + @ray_length * 2) + ")")
     this
   
   add_nodes: () ->
@@ -94,7 +96,7 @@ class CircleChart
       .attr("class", "video_views_ray")
       .attr("width", (d) => @v_scale(d.views))
       .attr("height", 1)
-      .attr("x", @ray_length + 2)
+      .attr("x", (d) => @ray_length + 2)
     this
   
   add_labels: () ->
@@ -105,16 +107,18 @@ class CircleChart
           when "Video" then "video_label"
           else "topic_label"
         )
-    @node.selectAll(".playlist_label, .subtopic_label, .topic_label")
+    @node.selectAll(".playlist_label")
       .attr("dx", -5)
       .attr("dy", 3)
       .attr("text-anchor", "end")
       .text( (d) -> d.name)
-      
+    
+    @node.selectAll(".subtopic_label, .topic_label")
+      .attr("transform", (d) -> "rotate(" + (90 - d.x) + ")")
+      .attr("text-anchor", "middle")
+      .text( (d) -> d.name)
+    
     @node.selectAll(".video_label")
-      .attr("dx", 5)
-      .attr("dy", 3)
-      .attr("text-anchor", "start")
       .attr("display", "none")
       .text( (d) -> d.title)
     this
