@@ -14,21 +14,23 @@
   stroke-width: 1px;
 }
 .node_duration_circle{
-  fill: #f0f0f0;
+  fill: #eee;
   //stroke: #517cbb;
 }
 .node_views_circle{
   display: none;
-  fill: #f0f0f0;
+  fill: #eee;
   //stroke: #7ba15f;
 }
 .node_views_circle_inner{
   fill: transparent;
   stroke: #fff;
+  stroke-width: 2px;
 }
 .node_views_circle_outer{
   fill: transparent;
-  stroke: #f0f0f0;
+  stroke: #eee;
+  stroke-width: 1px;
 }
 .video_duration_ray{
   fill: #ccc;
@@ -48,8 +50,13 @@
 .subtopic_label{
   font-size: 12px;
 }
+.sublabel{
+  font-size: 10px;
+  fill: #999;
+}
 .root_node{
   .root_label,
+  .sublabel,
   .node_views_circle,
   .node_duration_circle,
   .node_views_circle_inner,
