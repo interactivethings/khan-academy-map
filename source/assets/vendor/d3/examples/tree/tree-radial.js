@@ -1,4 +1,4 @@
-var r = 960 / 2;
+var r = 2000 / 2;
 
 var tree = d3.layout.tree()
     .size([360, r - 120])
