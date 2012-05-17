@@ -14,12 +14,21 @@
   stroke-width: 1px;
 }
 .node_duration_circle{
-  fill: transparent;
+  fill: #f0f0f0;
   //stroke: #517cbb;
 }
 .node_views_circle{
-  fill: #f3f3f3;
+  display: none;
+  fill: #f0f0f0;
   //stroke: #7ba15f;
+}
+.node_views_circle_inner{
+  fill: transparent;
+  stroke: #fff;
+}
+.node_views_circle_outer{
+  fill: transparent;
+  stroke: #f0f0f0;
 }
 .video_duration_ray{
   fill: #ccc;
@@ -34,6 +43,17 @@
   font-size: 10px;
   fill: #222;
 }
-.topic_label{
+.root_label,
+.topic_label,
+.subtopic_label{
   font-size: 12px;
+}
+.root_node{
+  .root_label,
+  .node_views_circle,
+  .node_duration_circle,
+  .node_views_circle_inner,
+  .node_views_circle_outer{
+    display: none;
+  }
 }

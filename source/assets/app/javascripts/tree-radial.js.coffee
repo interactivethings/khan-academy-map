@@ -7,9 +7,9 @@ class CircleChart
     @vis          = null
     @width        = 4000
     @height       = 4000
-    @ray_length   = 100
-    @ring_radius  = 600
-    @r            = @width / 2  - @ray_length * 4
+    @max_length   = 100
+    @max_radius   = 500
+    @r            = @width / 2  - @max_length * 4
     @tree         = d3.layout.cluster()  
                     .size([360, @r])
                     .separation(MathHelpers.depth)
@@ -27,14 +27,14 @@ class CircleChart
     @min_duration = d3.min(@nodes, (d) -> d.duration)
     @max_duration = d3.max(@nodes, (d) -> d.duration)
     @sum_duration = d3.sum(@nodes, (d) -> d.duration)
-    @d_max_scale  = d3.scale.linear().range([0, @ray_length]).domain([0, @max_duration])
-    @d_sum_scale  = d3.scale.linear().range([0, @ring_radius*@ring_radius]).domain([0, @sum_duration])
+    @d_max_scale  = d3.scale.linear().range([0, @max_length]).domain([0, @max_duration])
+    @d_sum_scale  = d3.scale.linear().range([0, @max_radius*@max_radius]).domain([0, @sum_duration])
     
     @min_views    = d3.min(@nodes, (d) -> d.views)
     @max_views    = d3.max(@nodes, (d) -> d.views)
     @sum_views    = d3.sum(@nodes, (d) -> d.views)
-    @v_max_scale  = d3.scale.linear().range([0, @ray_length]).domain([0, @max_views])
-    @v_sum_scale  = d3.scale.linear().range([0, @ring_radius*@ring_radius]).domain([0, @sum_views])
+    @v_max_scale  = d3.scale.linear().range([0, @max_length]).domain([0, @max_views])
+    @v_sum_scale  = d3.scale.linear().range([0, @max_radius*@max_radius]).domain([0, @sum_views])
     
     this
   
@@ -44,7 +44,7 @@ class CircleChart
       .attr("height", @height)
       .append("g")
       .attr("id", "vis")
-      .attr("transform", "translate(" + (@r + @ray_length * 2) + ", " + (@r + @ray_length * 2) + ")")
+      .attr("transform", "translate(" + (@r + @max_length * 2) + ", " + (@r + @max_length * 2) + ")")
     this
   
   add_nodes: () ->
@@ -68,7 +68,7 @@ class CircleChart
     this
   
   add_duration_circles: () ->
-    for selector in ["playlist", "subtopic", "topic"]
+    for selector in ["playlist", "subtopic", "topic", "root"]
       @vis.selectAll(".#{selector}_node")
         .append("circle")
         .attr("class", "node_duration_circle")
@@ -78,7 +78,7 @@ class CircleChart
           Math.sqrt(@d_sum_scale(d.duration))
     this
   add_views_circles: () ->
-    for selector in ["playlist", "subtopic", "topic"]
+    for selector in ["playlist", "subtopic", "topic", "root"]
       @vis.selectAll(".#{selector}_node")
         .append("circle")
         .attr("class", "node_views_circle")
@@ -86,6 +86,22 @@ class CircleChart
           d.views = 0 unless d.views?
           d.views += child_d.views for child_d in d.children
           Math.sqrt(@v_sum_scale(d.views))
+          
+    this
+    for selector in ["playlist", "subtopic", "topic", "root"]
+      @vis.selectAll(".#{selector}_node")
+        .append("circle")
+        .attr("class", "node_views_circle_inner")
+        .attr "r", (d) =>
+          Math.sqrt(@v_sum_scale(d.views))
+          
+    this
+    for selector in ["playlist", "subtopic", "topic", "root"]
+      @vis.selectAll(".#{selector}_node")
+        .append("circle")
+        .attr("class", "node_views_circle_outer")
+        .attr "r", (d) =>
+          Math.sqrt(@v_sum_scale(d.views))+1
           
     this
   
@@ -104,7 +120,7 @@ class CircleChart
       .attr("class", "video_views_ray")
       .attr("width", (d) => @v_max_scale(d.views))
       .attr("height", 1)
-      .attr("x", (d) => @ray_length + 2)
+      .attr("x", (d) => @max_length + 2)
     this
   
   add_links: () ->
@@ -122,7 +138,10 @@ class CircleChart
         switch d.kind
           when "Topic" then "playlist_label"
           when "Video" then "video_label"
-          else "topic_label"
+          else
+            if d.depth > 1 then "subtopic_label"
+            else if d.depth > 0 then "topic_label"
+            else "root_label"
         )
     this
   update_labels: () ->
@@ -132,7 +151,7 @@ class CircleChart
       .attr("text-anchor", "end")
       .text( (d) -> d.name)
     
-    @node.selectAll(".subtopic_label, .topic_label")
+    @node.selectAll(".subtopic_label, .topic_label, .root_label")
       .attr("transform", (d) -> "rotate(" + (90 - d.x) + ")")
       .attr("text-anchor", "middle")
       .text( (d) -> d.name)
