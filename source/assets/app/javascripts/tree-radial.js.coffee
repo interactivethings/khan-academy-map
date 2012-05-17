@@ -106,7 +106,7 @@ class CircleChart
   add_duration_rays: () ->
     @vis.selectAll(".video_node")
       .append("rect")
-      .attr("class", "video_duration_ray")
+      .attr("class", (d) => if d.duration == @max_duration then "video_duration_ray max_duration" else "video_duration_ray")
       .attr("width", (d) => @d_max_scale(d.duration))
       .attr("height", 1)
       .attr("x", 2)
@@ -115,7 +115,7 @@ class CircleChart
   add_view_rays: () ->
     @vis.selectAll(".video_node")
       .append("rect")
-      .attr("class", "video_views_ray")
+      .attr("class", (d) => if d.views == @max_views then "video_views_ray max_views" else "video_views_ray")
       .attr("width", (d) => @v_max_scale(d.views))
       .attr("height", 1)
       .attr("x", (d) => @max_length + 2)
