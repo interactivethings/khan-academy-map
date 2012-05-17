@@ -1,14 +1,26 @@
 .link {
   fill: none;
-  stroke: #CCC;
+  stroke: #ccc;
+  stroke-width: 1px;
+}
+.depth_0{
+  stroke-width: 1px;
+}
+.depth_1{
+  stroke-width: 1px;
+}
+.depth_2{
   stroke-width: 1px;
 }
 .node_circle{
-  fill: rgba(0,0,0,0.1);
-  stroke: #ccc;
+  fill: rgba(0,0,0,0.05);
+  fill: #f3f3f3;
 }
-.video_ray{
-  fill: #ccc;
+.video_duration_ray{
+  fill: #aaa;
+}
+.video_views_ray{
+  fill: #f90;
 }
 .video_label,
 .playlist_label,
