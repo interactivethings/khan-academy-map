@@ -9,6 +9,7 @@ class CircleChart
     @width        = 4000
     @height       = 4000
     @ray_length   = 100
+    @ring_radius  = 100
     @r            = @width / 2  - @ray_length * 4
     @tree         = d3.layout.cluster()  
                     .size([360, @r])
@@ -23,10 +24,14 @@ class CircleChart
   create_scales: () ->
     @min_duration = d3.min(@nodes, (d) -> d.duration)
     @max_duration = d3.max(@nodes, (d) -> d.duration)
+    @sum_duration = d3.max(@nodes, (d) -> d.duration)
     @min_views    = d3.min(@nodes, (d) -> d.views)
     @max_views    = d3.max(@nodes, (d) -> d.views)
-    @d_scale      = d3.scale.linear().range([0, @ray_length]).domain([0, @max_duration])
-    @v_scale      = d3.scale.linear().range([0, @ray_length]).domain([0, @max_views])
+    @sum_views    = d3.sum(@nodes, (d) -> d.duration)
+    @d_max_scale  = d3.scale.linear().range([0, @ray_length]).domain([0, @max_duration])
+    @v_max_scale  = d3.scale.linear().range([0, @ray_length]).domain([0, @max_views])
+    @d_sum_scale  = d3.scale.linear().range([0, @ring_radius]).domain([0, @sum_duration])
+    @v_sum_scale  = d3.scale.linear().range([0, @ring_radius]).domain([0, @sum_views])
     this
   
   add_svg: () ->
@@ -47,12 +52,9 @@ class CircleChart
           when "Video" then "node video_node"
           when "Topic" then "node playlist_node"
           else
-            if d.depth > 1
-              "node subtopic_node"
-            else if d.depth > 0
-              "node topic_node"
-            else
-              "node root_node"
+            if d.depth > 1 then "node subtopic_node"
+            else if d.depth > 0 then "node topic_node"
+            else "node root_node"
       .attr "id",  (d) -> 
         switch d.kind
           when "Video" then d.readable_id
@@ -65,11 +67,23 @@ class CircleChart
     for selector in ["playlist", "subtopic", "topic", "root"]
       @vis.selectAll(".#{selector}_node")
         .append("circle")
-        .attr("class", "node_circle")
-        .attr "r", (d) ->
+        .attr("class", "node_duration_circle")
+        .attr "r", (d) =>
           d.duration = 0 unless d.duration?
           d.duration += child_d.duration for child_d in d.children
-          MathHelpers.calc_node_radius(d.duration)
+          #@d_sum_scale(d.duration)
+          300
+    this
+  add_views_circles: () ->
+    for selector in ["playlist", "subtopic", "topic", "root"]
+      @vis.selectAll(".#{selector}_node")
+        .append("circle")
+        .attr("class", "node_views_circle")
+        .attr "r", (d) =>
+          d.views = 0 unless d.views?
+          d.views += child_d.views for child_d in d.children
+          #@v_sum_scale(d.views)
+          200
     this
   
   add_links: () ->
@@ -85,7 +99,7 @@ class CircleChart
     @vis.selectAll(".video_node")
       .append("rect")
       .attr("class", "video_duration_ray")
-      .attr("width", (d) => @d_scale(d.duration))
+      .attr("width", (d) => @d_max_scale(d.duration))
       .attr("height", 1)
       .attr("x", 2)
     this
@@ -94,7 +108,7 @@ class CircleChart
     @vis.selectAll(".video_node")
       .append("rect")
       .attr("class", "video_views_ray")
-      .attr("width", (d) => @v_scale(d.views))
+      .attr("width", (d) => @v_max_scale(d.views))
       .attr("height", 1)
       .attr("x", (d) => @ray_length + 2)
     this
@@ -117,10 +131,11 @@ class CircleChart
       .attr("transform", (d) -> "rotate(" + (90 - d.x) + ")")
       .attr("text-anchor", "middle")
       .text( (d) -> d.name)
-    
+      
     @node.selectAll(".video_label")
       .attr("display", "none")
       .text( (d) -> d.title)
+    
     this
 $ ->
   data_url = "media/data/hierarchical_library_tree_full.json"
@@ -133,6 +148,7 @@ $ ->
       .add_svg()
       .add_nodes()
       .add_duration_circles()
+      .add_views_circles()
       .add_duration_rays()
       .add_view_rays()
       .add_links()

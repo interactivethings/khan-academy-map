@@ -12,8 +12,13 @@
 .depth_2{
   stroke-width: 1px;
 }
-.node_circle{
-  fill: #f3f3f3;
+.node_duration_circle{
+  fill: transparent;
+  stroke: #d09;
+}
+.node_views_circle{
+  fill: transparent;
+  stroke: #d90;
 }
 .video_duration_ray{
   fill: #ccc;
