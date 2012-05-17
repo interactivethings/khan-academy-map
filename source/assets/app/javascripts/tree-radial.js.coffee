@@ -58,18 +58,31 @@ class CircleChart
           when "Topic" then d.id
           else d.name
       .attr "transform", (d) -> 
-        switch d.kind
-          when "Video" then "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"
-          when "Topic" then "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"
-          else 
-            if d.depth > 1
-              d.y = 600
-              "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"
-            else if d.depth > 0
-              d.y = 350
-              "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"
-            else
-              "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"
+        if !d.kind?
+          if d.depth > 1
+            d.y = 600
+            switch d.name
+              when "Art History"
+                d.x += 5
+                d.y = 550
+              when "Arithmetic and Pre-Algebra"
+                d.x += 20
+                d.y = 390
+              when "Geometry"
+                d.x -= 23
+          else if d.depth > 0
+            switch d.name
+              when "Math"
+                d.x -= 20
+                d.y = 250
+              when "Science"
+                d.y = 400
+              when "Finance & Economy"
+                d.y = 280
+              when "Humanities"
+                d.x += 20
+                d.y = 300
+        "rotate(" + (d.x - 90) + ")translate(" + d.y + ")"
     this
   
   add_duration_circles: () ->
@@ -118,7 +131,7 @@ class CircleChart
       .attr("class", (d) => if d.views == @max_views then "video_views_ray max_views" else "video_views_ray")
       .attr("width", (d) => @v_max_scale(d.views))
       .attr("height", 1)
-      .attr("x", (d) => @max_length + 2)
+      .attr("x", (d) => @max_length + 4)
     this
   
   add_links: () ->
