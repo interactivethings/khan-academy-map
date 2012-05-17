@@ -1,5 +1,5 @@
 {
- "name": "Library",
+ "name": "Khan Academy Library",
  "children": [
   {
     "children": [
@@ -34366,7 +34366,8 @@
           ]
       }
     ],
-    "name": "Math"
+    "name": "Math",
+    "id": "math"
   },
   {
     "children": [
@@ -45931,7 +45932,8 @@
           ]
       }
     ],
-    "name": "Science"
+    "name": "Science",
+    "id": "science"
   },
   {
     "children": [
@@ -54918,7 +54920,8 @@
           ]
       }
     ],
-    "name": "Finance & Econ."
+    "name": "Finance & Economy",
+    "id": "finance-and-economy"
   },
   {
     "children": [
@@ -64233,7 +64236,8 @@
         "name": "Art History"
       }
     ],
-    "name": "Humanities"
+    "name": "Humanities",
+    "id": "humanities"
   }
 ]
 }
