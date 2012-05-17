@@ -5,6 +5,7 @@
 }
 .depth_0{
   stroke-width: 1px;
+  display: none;
 }
 .depth_1{
   stroke-width: 1px;
@@ -14,11 +15,11 @@
 }
 .node_duration_circle{
   fill: transparent;
-  stroke: #517cbb;
+  //stroke: #517cbb;
 }
 .node_views_circle{
-  fill: transparent;
-  stroke: #7ba15f;
+  fill: #f3f3f3;
+  //stroke: #7ba15f;
 }
 .video_duration_ray{
   fill: #ccc;
